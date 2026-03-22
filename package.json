@@ -1,0 +1,16 @@
+{
+  "name": "typespec-agent-squad",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Squad TypeSpec emitters — Phase 2 of the agentspec architecture",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

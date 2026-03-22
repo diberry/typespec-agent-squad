@@ -1,0 +1,29 @@
+{
+  "name": "@bradygaster/typespec-squad-copilot",
+  "version": "0.1.0",
+  "description": "Copilot SDK TypeSpec emitter: model selection and Copilot configuration",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"No tests yet\""
+  },
+  "peerDependencies": {
+    "@agentspec/core": ">=0.1.0",
+    "@bradygaster/typespec-squad": ">=0.1.0",
+    "@typespec/compiler": ">=0.61.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
